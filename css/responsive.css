@@ -1,0 +1,49 @@
+@media only screen and (max-width: 995px) {
+  .iphone-img {
+    position: static;
+    transform: rotate(0deg);
+    padding: 4%;
+    margin-top: 50px;
+  }
+
+  #title {
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 995px) and (max-width: 1335px) {
+  .iphone-img {
+    width: 80%;
+    /* top: 20%; */
+    left: 20%;
+  }
+}
+
+@media only screen and (max-width: 592px) {
+  #title h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 532px) {
+  .iphone-img {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  #title h1 {
+    /* background-color: antiquewhite; */
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .press-img {
+    width: 70%;
+  }
+
+  .test-carousel {
+    padding-bottom: 60px;
+  }
+}
